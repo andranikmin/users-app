@@ -1,0 +1,59 @@
+.students {
+   position: relative;
+}
+
+.students_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background: #feffa0;
+}
+
+.students_header h4 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+    color: #505050;
+    font-weight: 400;
+}
+
+.students_header img {
+   cursor: pointer;
+}
+
+.students_type {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.students_type_item {
+    padding: 10px 15px;
+    border: 1px solid #4da048;
+    color: #636363;
+    margin-right: 15px;
+}
+
+.students_type_item.active,
+.students_type_item:hover {
+    background-color:#4da048;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.students_setting {
+    position: absolute;
+    right: 32px;
+    top: 15px;
+    background-color: #4da048;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.students_setting input,
+.students_setting label {
+    cursor: pointer;
+}

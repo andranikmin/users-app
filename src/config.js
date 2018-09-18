@@ -1,0 +1,1 @@
+export const API_URL = 'https://api0.sms-dnevnik.com/rest/journal';

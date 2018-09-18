@@ -1,0 +1,31 @@
+.users {
+    padding: 15px 0;
+}
+
+.users h3 {
+    color: #636363;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.users_nav {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.users_nav_item {
+    color: #a2a2a2;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.users_nav_item.active {
+    color: #7cab5c;
+}
+
+.users_content {
+    background: #ffffff;
+}

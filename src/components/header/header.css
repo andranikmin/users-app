@@ -1,0 +1,21 @@
+.header {
+    background-color: #4da048;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #4da048;
+}
+
+.header_nav_item {
+    color: #ffffff;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.header_nav_item.active,
+.header_nav_item:hover {
+    background-color: #3b7d32;
+}
